@@ -1,0 +1,38 @@
+"""
+Prototype for SkeeterTracker 1.1: an SMS based system to track Aedes Aegypti
+Triangle Global Health Innovation Bootcamp; Vector Borne Disease Challenge
+Team: 
+
+T. Ball ; T. Hinton ; P. Tran ; S. Lola ; P. Halvorsen
+
+Developer: PJHalvors
+
+Our initial findings:
+#[1] Several papers correlate climate factors with disease incidence/prevalence
+
+#[2] Temperature/Humidity are better disease vector indicators than rainfall
+
+#[3] Temperatures 
+	#Higher than 89F across Aedes and anopheles spp.
+	#Higher than 101F for Aedes spp.
+	#Lower than 60F
+		Correlate with low/reduced Aedes populations. These are indicated at the GREEN LEVEL
+		
+#[4] Humidity
+	# Greater than 75%
+	#Less than 40%
+		Correlate with low/reduced Aedes populations. These are indicated at the GREEN LEVEL
+
+#[5] RED LEVEL indicators are:
+	#Temperature = 71F to 89F
+	#Humidity = 40% to 60%
+    These values are consistent with spikes in Aedes aegypti populations
+    Values not GREEN or RED are indicated ORANGE (moderate risk)
+
+#[6] Rainfall may be a better indicator of an outbreak 2-3 weeks in advance but publications show variable results. 
+	#Hence rainfall is included with values of YES or NO and corresponding prediction of 2-3 weeks from now. 
+	
+Target vector: Aedes Aegypti; Target location: Burundi
+
+ 
+"""
